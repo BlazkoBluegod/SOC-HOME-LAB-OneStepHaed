@@ -8,7 +8,7 @@ This repository documents the design, configuration, and log analysis of my pers
 The laboratory is structured to isolate traffic and simulate an enterprise environment using VLANs managed by **pfSense**:
 
 *   **Attacking Zone **: Kali Linux / Parrot OS (Vulnerability analysis and threat simulation).
-*   **Victim Zone**: Monitored endpoints (Windows Server Active Directory / Linux) for system log generation.
+*   **Victim Zone**: Monitored endpoints (Windows Server Active Directory / Linux /windows 11 24h2) for system log generation.
 *   **SIEM & Management Zone**: **Splunk (Free License)** dedicated to centralizing, indexing, and analyzing security logs.
 
 ## 🚀 Project Objectives (2026-2028)
